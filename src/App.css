@@ -1,0 +1,31 @@
+body{
+    background-color: #151515;
+    color: white;
+}
+
+*:focus{
+    outline: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+
+}
+
+.image-slideshow{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .fade{
+      animation-name: fade;
+      animation-duration: 4s;
+    }
+    @keyframes fade {
+      from {opacity: .5}
+      to {opacity: 1}
+    }
+   .fade img {
+    padding: 0rem 1rem;
+      width: 100%;
+      height:80vh;
+    }
